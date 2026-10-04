@@ -1,0 +1,41 @@
+# Mooring Design Simulator
+
+[English version](README.md).
+
+**Concevoir, simuler et préparer des mouillages océanographiques de subsurface.**
+
+Mooring Design Simulator est une application de bureau qui associe un concepteur graphique, une bibliothèque de composants et un calcul d’équilibre statique. Elle permet de comparer un mouillage sans courant et sous différents profils de courant, puis de préparer les rapports et documents nécessaires à sa mise en œuvre.
+
+**Version documentée : 2.1.0-RC8 — préversion.**
+
+[Télécharger l’application](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAYGNgDWp-cUukze5fb-j1Eg?e=F0Br07) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
+
+## Fonctionnalités
+
+- Concevoir plusieurs stations dans des onglets indépendants ; dupliquer un mouillage ou copier des groupes de composants avec leurs instruments clampés.
+- Définir les positions imposées, protéger les longueurs préparées et adapter la ligne à la bathymétrie.
+- Gérer une bibliothèque de flotteurs, instruments, câbles, cordages, largueurs, terminaux et lests.
+- Définir les profils de courant par saisie ou import CSV/TXT/NetCDF.
+- Comparer les profondeurs, tensions, allongements, charges de lest et indicateurs de déploiement/récupération dans les tableaux et graphes.
+- Générer des rapports PDF et des fiches de préparation A3 avec marquages des cordages et champs de numéros de série.
+- Importer et exporter les projets au format historique Mooring Simulator V1, avec contrôles de compatibilité.
+
+![Conception de plusieurs mouillages](https://raw.githubusercontent.com/wiki/jgrelet/MooringDesignSimulator/images/mooring-designer-rc8.png)
+
+<p align="center"><em>Conception sur deux colonnes, plusieurs mouillages ouverts et onglets de simulation.</em></p>
+
+![Résultats de simulation](https://raw.githubusercontent.com/wiki/jgrelet/MooringDesignSimulator/images/mooring-simulation-results-rc8.png)
+
+<p align="center"><em>Résultats de la simulation en statique ou avec courant.</em></p>
+
+## Démarrer
+
+1. [Télécharger l’archive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAYGNgDWp-cUukze5fb-j1Eg?e=F0Br07) adaptée à votre système et l’extraire entièrement.
+2. Conserver l’application avec les dossiers `library/` et `examples/` fournis.
+3. Ouvrir un exemple, adapter sa conception et lancer la simulation.
+
+Consulter [Installation et premier lancement](INSTALLATION-fr.md), puis le [guide d’utilisation](https://github.com/jgrelet/MooringDesignSimulator/wiki/UseApplication-fr). L’application utilise un solveur statique et des modèles simplifiés de lancement et de récupération ; elle ne réalise pas une simulation dynamique complète.
+
+Le code source est maintenu dans un dépôt privé. Ce dépôt public donne accès à la présentation et à la documentation du logiciel. Le lien de téléchargement est provisoire.
+
+**Auteur : J. Grelet.**
