@@ -34,8 +34,8 @@ Import and export projects in the legacy Mooring Simulator V1 format with compat
 2. Keep the application with the supplied `library/` and `examples/` folders.
 3. Open an example, adapt its design and run the simulation.
 
-Read [Installation and first use](INSTALLATION.md), then the [user guide](https://github.com/jgrelet/MooringDesignSimulator/wiki/UseApplication). The application uses a static solver and simplified launch and recovery models; it does not perform a full dynamic simulation.
+The documentation is available in the [project wiki](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home). Start with [Installation and first use](https://github.com/jgrelet/MooringDesignSimulator/wiki/Installation), then read the [user guide](https://github.com/jgrelet/MooringDesignSimulator/wiki/UseApplication). The application uses a static solver and simplified launch and recovery models; it does not perform a full dynamic simulation.
 
-The source code is maintained in a private repository. This public repository provides the software presentation and documentation. The download link is temporary.
+The source code is maintained in a private repository. This public repository presents the software; its documentation is maintained in the wiki. The download link is temporary.
 
 **Author: J. Grelet.**

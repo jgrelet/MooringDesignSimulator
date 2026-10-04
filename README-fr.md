@@ -34,8 +34,8 @@ Mooring Design Simulator est une application de bureau qui associe un concepteur
 2. Conserver l’application avec les dossiers `library/` et `examples/` fournis.
 3. Ouvrir un exemple, adapter sa conception et lancer la simulation.
 
-Consulter [Installation et premier lancement](INSTALLATION-fr.md), puis le [guide d’utilisation](https://github.com/jgrelet/MooringDesignSimulator/wiki/UseApplication-fr). L’application utilise un solveur statique et des modèles simplifiés de lancement et de récupération ; elle ne réalise pas une simulation dynamique complète.
+La documentation se trouve dans le [wiki du projet](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr). Consulter [Installation et premier lancement](https://github.com/jgrelet/MooringDesignSimulator/wiki/Installation-fr), puis le [guide d’utilisation](https://github.com/jgrelet/MooringDesignSimulator/wiki/UseApplication-fr). L’application utilise un solveur statique et des modèles simplifiés de lancement et de récupération ; elle ne réalise pas une simulation dynamique complète.
 
-Le code source est maintenu dans un dépôt privé. Ce dépôt public donne accès à la présentation et à la documentation du logiciel. Le lien de téléchargement est provisoire.
+Le code source est maintenu dans un dépôt privé. Ce dépôt public présente le logiciel ; sa documentation est maintenue dans le wiki. Le lien de téléchargement est provisoire.
 
 **Auteur : J. Grelet.**
