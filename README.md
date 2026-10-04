@@ -13,12 +13,12 @@ The MooringDesignSimulator is a desktop application that combines a graphical de
 ## Features
 
 - Design several moorings in separate tabs, duplicate a mooring, or copy groups of components along with their clamped instruments.
-Impose design positions, protect prepared rope lengths and adapt the line to the bathymetry.
-Manage a catalogue of floats, instruments, cables, ropes, releases, terminals and anchors.
-Define current profiles manually or import CSV, TXT or NetCDF data.
-Compare depths, tensions, stretch, anchor guidance and deployment/recovery estimates using tables and charts.
-Generate PDF reports and A3 preparation sheets with rope markings and serial number fields.
-Import and export projects in the legacy Mooring Simulator V1 format with compatibility checks.
+- Impose design positions, protect prepared rope lengths and adapt the line to the bathymetry.
+- Manage a catalogue of floats, instruments, cables, ropes, releases, terminals and anchors.
+- Define current profiles manually or import CSV, TXT or NetCDF data.
+- Compare depths, tensions, stretch, anchor guidance and deployment/recovery estimates using tables and charts.
+- Generate PDF reports and A3 preparation sheets with rope markings and serial number fields for instruments.
+- Import and export projects in the legacy Mooring Simulator V1 format with compatibility checks.
 
 ![Multiple mooring design](https://raw.githubusercontent.com/wiki/jgrelet/MooringDesignSimulator/images/mooring-designer-rc8.png)
 
