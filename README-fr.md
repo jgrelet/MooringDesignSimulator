@@ -8,7 +8,7 @@ Mooring Design Simulator est une application de bureau qui associe un concepteur
 
 **Version documentée : 2.1.0-RC8 — préversion.**
 
-[Télécharger l’application](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAYGNgDWp-cUukze5fb-j1Eg?e=F0Br07) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
+[Télécharger l’application](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC8) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
 
 ## Fonctionnalités
 
@@ -30,12 +30,12 @@ Mooring Design Simulator est une application de bureau qui associe un concepteur
 
 ## Démarrer
 
-1. [Télécharger l’archive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAYGNgDWp-cUukze5fb-j1Eg?e=F0Br07) adaptée à votre système et l’extraire entièrement.
+1. [Télécharger l’archive d’installation](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC8) (`mooringDesignSimulator-release.zip`) et l’extraire entièrement.
 2. Conserver l’application avec les dossiers `library/` et `examples/` fournis.
 3. Ouvrir un exemple, adapter sa conception et lancer la simulation.
 
 La documentation se trouve dans le [wiki du projet](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr). Consulter [Installation et premier lancement](https://github.com/jgrelet/MooringDesignSimulator/wiki/Installation-fr), puis le [guide d’utilisation](https://github.com/jgrelet/MooringDesignSimulator/wiki/UseApplication-fr). L’application utilise un solveur statique et des modèles simplifiés de lancement et de récupération ; elle ne réalise pas une simulation dynamique complète.
 
-Le code source est maintenu dans un dépôt privé. Ce dépôt public présente le logiciel ; sa documentation est maintenue dans le wiki. Le lien de téléchargement est provisoire.
+Le code source est maintenu dans un dépôt privé. Ce dépôt public présente le logiciel ; sa documentation est maintenue dans le wiki.
 
 **Auteur : J. Grelet.**

@@ -8,7 +8,7 @@ The MooringDesignSimulator is a desktop application that combines a graphical de
 
 **Documented version: 2.1.0-RC8 — prerelease.**
 
-[Download the application](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAYGNgDWp-cUukze5fb-j1Eg?e=F0Br07) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
+[Download the application](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC8) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
 
 ## Features
 
@@ -30,12 +30,12 @@ Import and export projects in the legacy Mooring Simulator V1 format with compat
 
 ## Getting started
 
-1. [Download the archive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAYGNgDWp-cUukze5fb-j1Eg?e=F0Br07) for your operating system and extract it completely.
+1. [Download the installation archive](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC8) (`mooringDesignSimulator-release.zip`) and extract it completely.
 2. Keep the application with the supplied `library/` and `examples/` folders.
 3. Open an example, adapt its design and run the simulation.
 
 The documentation is available in the [project wiki](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home). Start with [Installation and first use](https://github.com/jgrelet/MooringDesignSimulator/wiki/Installation), then read the [user guide](https://github.com/jgrelet/MooringDesignSimulator/wiki/UseApplication). The application uses a static solver and simplified launch and recovery models; it does not perform a full dynamic simulation.
 
-The source code is maintained in a private repository. This public repository presents the software; its documentation is maintained in the wiki. The download link is temporary.
+The source code is maintained in a private repository. This public repository presents the software; its documentation is maintained in the wiki.
 
 **Author: J. Grelet.**
