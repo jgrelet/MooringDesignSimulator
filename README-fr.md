@@ -13,7 +13,7 @@ Mooring Design Simulator est une application de bureau qui associe un concepteur
 ## Fonctionnalités
 
 - Concevoir plusieurs mouillages dans des onglets indépendants ; dupliquer un mouillage ou copier des groupes de composants avec leurs instruments clampés.
-- Définir les positions imposées, protéger les longueurs préparées et adapter la ligne à la bathymétrie.
+- Définir les positions imposées, verrouiller les longueurs standards préparées et adapter la ligne à la bathymétrie.
 - Gérer une bibliothèque de flotteurs, instruments, câbles, élingues, largueurs, terminaux et lests.
 - Définir les profils de courant par saisie ou import de fichiers au format CSV, TXT ou NetCDF.
 - Comparer les profondeurs, tensions, allongements, poids de lest et indicateurs de déploiement/récupération dans les tableaux et graphes.
