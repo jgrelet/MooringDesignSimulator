@@ -6,9 +6,9 @@
 
 Mooring Design Simulator est une application de bureau qui associe un concepteur graphique, une bibliothèque de composants et un calcul d’équilibre statique. Elle permet de comparer un mouillage sans courant et sous différents profils de courant, puis de préparer les rapports et documents nécessaires à sa mise en œuvre.
 
-**Version documentée : 2.1.0-RC8 — préversion.**
+**Version documentée : 2.1.0-RC9 — préversion.**
 
-[Télécharger l’application](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC8) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
+[Télécharger l’application](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC9) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
 
 ## Fonctionnalités
 
@@ -30,7 +30,7 @@ Mooring Design Simulator est une application de bureau qui associe un concepteur
 
 ## Démarrer
 
-1. [Télécharger l’archive d’installation](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC8) (`mooringDesignSimulator-release.zip`) et l’extraire entièrement.
+1. [Télécharger l’archive d’installation](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC9) (`mooringDesignSimulator-release.zip`) et l’extraire entièrement.
 2. Conserver l’application avec les dossiers `library/` et `examples/` fournis.
 3. Ouvrir un exemple, adapter sa conception et lancer la simulation.
 

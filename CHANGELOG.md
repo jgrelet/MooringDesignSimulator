@@ -7,6 +7,15 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC9] - 2026-10-05
+
+### Changed
+
+- Use one standard seawater density of 1025 kg/m³ for static equilibrium with or without current, launch/recovery and dry/submerged mass conversions; clarify the difference from V1 in EN/FR documentation.
+- Maintain shipped demo projects and current profiles under examples/demo; retire the previous example paths from version control and update installation guidance.
+
+- Align English and French in-app help with the user guide, clarify solver discretisation and recovery limits, and place startup and depth-review guidance in their relevant sections.
+
 ## [v2.1.0-RC8] - 2026-10-03
 
 ### Added
