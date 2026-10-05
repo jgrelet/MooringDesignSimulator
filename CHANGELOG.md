@@ -7,14 +7,42 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC10] - 2026-10-06
+
+### Added
+
+- Remind users to return to Conception when attempting to edit a read-only simulated mooring.
+
+### Changed
+
+- Replace components within any library family, including clamped instruments, while preserving their placement and compatible attachments.
+- Keep the selected result page and chart when switching between no-current and current simulations, including undocked results.
+
+### Fixed
+
+- Match mooring-profile instrument and float markers to the segment-start or clamped-attachment depths in the results table; position hover details around instrument labels without overlap and show two-decimal coordinates.
+- Avoid blank-tab and mooring redraw flashes when quitting after discarding unsaved changes; retain the original active mooring for the next session.
+- Align instrument and float markers with the solver geometry in mooring-profile figures, including instruments clamped inside discretized ropes.
+
 ## [v2.1.0-RC9] - 2026-10-05
+
+### Added
+
+- Provide SHA-256 checksum files for the executable and release ZIP, with download verification instructions.
+- Open the public English/French user wiki from the Help menu.
 
 ### Changed
 
 - Use one standard seawater density of 1025 kg/m³ for static equilibrium with or without current, launch/recovery and dry/submerged mass conversions; clarify the difference from V1 in EN/FR documentation.
 - Maintain shipped demo projects and current profiles under examples/demo; retire the previous example paths from version control and update installation guidance.
-
 - Align English and French in-app help with the user guide, clarify solver discretisation and recovery limits, and place startup and depth-review guidance in their relevant sections.
+
+### Fixed
+
+- Reuse a pristine unsaved empty designer tab when opening a project, including after restoring an empty working project at startup.
+- Reuse the loaded component library and cached palette icons when creating or closing mooring tabs, avoiding unnecessary catalogue reloads and long waits.
+- Enable Save and Save As only when the active designer contains at least one segment; prevent saving empty mooring files.
+- Fix the Windows release executable missing Qt/Shiboken DLLs; reject incomplete executables before creating the distribution ZIP.
 
 ## [v2.1.0-RC8] - 2026-10-03
 
