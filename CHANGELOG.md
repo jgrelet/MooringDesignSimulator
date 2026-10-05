@@ -16,6 +16,10 @@ Versions follow the project Git tags.
 
 - Align English and French in-app help with the user guide, clarify solver discretisation and recovery limits, and place startup and depth-review guidance in their relevant sections.
 
+### Fixed
+
+- Fix the Windows release executable missing Qt/Shiboken DLLs; reject incomplete executables before creating the distribution ZIP.
+
 ## [v2.1.0-RC8] - 2026-10-03
 
 ### Added
