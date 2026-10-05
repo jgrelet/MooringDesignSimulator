@@ -62,8 +62,8 @@ These files are created in the system user configuration directory.
    - or `File > New mooring` to start a new mooring
 
 3. Test with an example
-   - open `examples/test-1.mooring.sqlite3` for a ready-to-use V2 project
-   - or import a legacy V1 project: `examples/mouillage_luckyscale_2021/luckyscale_2021_dyneema.py` or `examples/mouillage_microrio_2021_ATALANTE/MICROMOORING2021_atalante.py`
+   - open `examples/demo/FC1.mooring.sqlite3` for a ready-to-use V2 project
+   - or import a legacy V1 project: `examples/demo/Luckyscale.py` or `examples/demo/Microrio.py`
 
 4. Build or edit the mooring line
    - select a component in the library
