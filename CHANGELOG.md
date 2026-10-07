@@ -9,6 +9,8 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Preserve saved component properties when opening or restoring moorings; loading the library no longer marks the first restored tab as modified after Discard. Explicit library selection or reload still updates the active mooring.
+
 - Correct recommended anchor sizing with current by using the horizontal-load magnitude in the formula inherited from V1. V2 measures signed inclination angles from the vertical along the line from top to bottom; their sign must not reduce the recommended ballast, regardless of the surface or seabed depth reference.
 
 ### Added
