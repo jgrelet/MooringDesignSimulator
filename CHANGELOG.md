@@ -7,6 +7,10 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Added
+
+- Add a Run simulation button beneath the outdated-results message to rerun the current mooring without returning to the toolbar or menu.
+
 ### Fixed
 
 - Fix Windows startup failures caused by an incompatible Qt runtime.
