@@ -7,6 +7,23 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Fixed
+
+- Remove transient undo histories and saved-mooring working copies on shutdown, and avoid restoring empty temporary tabs.
+- Fit the global configuration window to its fields and validation buttons.
+- Fix rendering failures for stacked terminal components in the mooring designer.
+
+### Changed
+
+- Leave the author blank by default in new global configurations.
+- Separate configuration, working cache and rotating logs without repeating the application name in Windows AppData; retain access to existing session recovery files.
+- Align Edit menu shortcuts and group JSON/V1 exports under File > Export; add report generation to File > Print.
+- Use a 1 m rope marking tail by default for new configurations; preserve saved tail lengths.
+
+### Added
+
+- Add Configuration > Clean cache with confirmation, protection of open moorings and session recovery, and warnings for files that cannot be removed.
+
 ## [v2.1.0-RC11] - 2026-10-10
 
 ### Changed
