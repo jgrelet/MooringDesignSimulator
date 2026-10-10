@@ -30,9 +30,11 @@ The MooringDesignSimulator is a desktop application that combines a graphical de
 
 ## Getting started
 
-1. [Download the installation archive](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) (`mooringDesignSimulator-release.zip`) and extract it completely.
+1. [Download the installation archive](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) matching your operating system and processor: Windows, Linux or macOS. Windows and macOS archives are ZIP files; Linux archives are `.tar.gz` files. For macOS, choose arm64 for Apple Silicon (M1–M4) or amd64 for Intel. Extract the archive completely.
 2. Keep the application with the supplied `library/` and `examples/` folders.
 3. Open an example, adapt its design and run the simulation.
+
+**Updating on Windows:** if a previous installation already contains the `library/` and `examples/` folders, you can download only `mooringDesignSimulator.exe` and replace the existing executable in that installation folder. Download the full archive if you also want the latest supplied library and examples.
 
 The documentation is available in the [project wiki](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home). Start with [Installation and first use](https://github.com/jgrelet/MooringDesignSimulator/wiki/Installation), then read the [user guide](https://github.com/jgrelet/MooringDesignSimulator/wiki/UseApplication). The application uses a static solver and simplified launch and recovery models; it does not perform a full dynamic simulation.
 
