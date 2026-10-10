@@ -6,11 +6,9 @@
 
 The MooringDesignSimulator is a desktop application that combines a graphical design tool, a component catalog, and static elongation calculations. It allows users to compare different mooring configurations based on various current profiles and to prepare the reports and workshop documents needed for their implementation at sea.
 
-**Documented version: 2.1.0-RC11 — upcoming prerelease under validation.**
+**Documented version: 2.1.0-RC11 — prerelease.**
 
-Available downloads below still refer to RC10 until RC11 is published.
-
-[Download the application](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC10) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
+[Download the application](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
 
 ## Features
 
@@ -32,7 +30,7 @@ Available downloads below still refer to RC10 until RC11 is published.
 
 ## Getting started
 
-1. [Download the installation archive](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC10) (`mooringDesignSimulator-release.zip`) and extract it completely.
+1. [Download the installation archive](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) (`mooringDesignSimulator-release.zip`) and extract it completely.
 2. Keep the application with the supplied `library/` and `examples/` folders.
 3. Open an example, adapt its design and run the simulation.
 
