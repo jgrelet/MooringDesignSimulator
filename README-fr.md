@@ -8,7 +8,7 @@ Mooring Design Simulator est une application de bureau qui associe un concepteur
 
 **Version documentée : 2.1.0-RC11 — préversion.**
 
-[Télécharger l’application](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
+[Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) · [Télécharger depuis OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
 
 ## Fonctionnalités
 
@@ -30,7 +30,7 @@ Mooring Design Simulator est une application de bureau qui associe un concepteur
 
 ## Démarrer
 
-1. [Télécharger l’archive d’installation](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) correspondant au système et au processeur : Windows, Linux ou macOS. Les archives Windows et macOS sont des ZIP ; celles de Linux sont au format `.tar.gz`. Pour macOS, choisir arm64 pour Apple Silicon (M1–M4) ou amd64 pour Intel. Extraire entièrement l’archive.
+1. Télécharger l’archive d’installation depuis [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) ou [OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx), correspondant au système et au processeur : Windows, Linux ou macOS. Les archives Windows et macOS sont des ZIP ; celles de Linux sont au format `.tar.gz`. Pour macOS, choisir arm64 pour Apple Silicon (M1–M4) ou amd64 pour Intel. Extraire entièrement l’archive.
 2. Conserver l’application avec les dossiers `library/` et `examples/` fournis.
 3. Ouvrir un exemple, adapter sa conception et lancer la simulation.
 
