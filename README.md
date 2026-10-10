@@ -6,7 +6,9 @@
 
 The MooringDesignSimulator is a desktop application that combines a graphical design tool, a component catalog, and static elongation calculations. It allows users to compare different mooring configurations based on various current profiles and to prepare the reports and workshop documents needed for their implementation at sea.
 
-**Documented version: 2.1.0-RC10 — prerelease.**
+**Documented version: 2.1.0-RC11 — upcoming prerelease under validation.**
+
+Available downloads below still refer to RC10 until RC11 is published.
 
 [Download the application](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC10) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
 

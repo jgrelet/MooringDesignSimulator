@@ -7,6 +7,12 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC11] - 2026-10-10
+
+### Changed
+
+- Build standalone packages with Python 3.14 and PySide6 6.11.2 from PyPI and CPython, which reduces the size of the binaries.
+
 ### Added
 
 - Add a Run simulation button beneath the outdated-results message to rerun the current mooring without returning to the toolbar or menu.
