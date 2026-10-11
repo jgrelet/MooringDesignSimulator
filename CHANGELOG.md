@@ -9,6 +9,8 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Preserve nearby-library lookup precedence on Linux when a project stores a missing Windows library path.
+
 - Update command-line help to show the current launcher and remove obsolete attribution.
 
 - Show clamp support geometry dimensions to one decimal in component tooltips while preserving stored precision.
