@@ -9,6 +9,8 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Show clamp support geometry dimensions to one decimal in component tooltips while preserving stored precision.
+
 - Restore the normal cursor before displaying component library import errors.
 
 - Delete consumed Undo/Redo snapshots so cancelled edits do not leave temporary SQLite files in the cache.
