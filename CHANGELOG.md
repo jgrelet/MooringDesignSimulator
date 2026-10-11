@@ -9,6 +9,7 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Delete consumed Undo/Redo snapshots so cancelled edits do not leave temporary SQLite files in the cache.
 - Archive legacy settings and logs on shutdown and remove the old duplicated AppData directory when empty.
 - Remove transient undo histories and saved-mooring working copies on shutdown, and avoid restoring empty temporary tabs.
 - Fit the global configuration window to its fields and validation buttons.
