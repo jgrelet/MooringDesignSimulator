@@ -9,6 +9,8 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Restore the normal cursor before displaying component library import errors.
+
 - Delete consumed Undo/Redo snapshots so cancelled edits do not leave temporary SQLite files in the cache.
 - Archive legacy settings and logs on shutdown and remove the old duplicated AppData directory when empty.
 - Remove transient undo histories and saved-mooring working copies on shutdown, and avoid restoring empty temporary tabs.
