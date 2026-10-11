@@ -9,6 +9,8 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Update command-line help to show the current launcher and remove obsolete attribution.
+
 - Show clamp support geometry dimensions to one decimal in component tooltips while preserving stored precision.
 
 - Restore the normal cursor before displaying component library import errors.
