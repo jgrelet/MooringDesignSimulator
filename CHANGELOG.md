@@ -47,6 +47,7 @@ Versions follow the project Git tags.
 ### Added
 
 - Add a Run simulation button beneath the outdated-results message to rerun the current mooring without returning to the toolbar or menu.
+- Add Abort to the clamp-position dialog to cancel the entire operation; distinguish cancellation from No, which keeps drag-and-drop insertion without clamping.
 
 ### Fixed
 
@@ -57,10 +58,6 @@ Versions follow the project Git tags.
 - Fix Linux executable startup by bundling the OpenSSL libraries required by the NetCDF stack.
 - Restore PDF report and preparation-sheet previews on Linux by shipping the complete Qt PDF bindings.
 - Correct recommended anchor sizing with current by using the horizontal-load magnitude in the formula inherited from V1. V2 measures signed inclination angles from the vertical along the line from top to bottom; their sign must not reduce the recommended ballast, regardless of the surface or seabed depth reference.
-
-### Added
-
-- Add Abort to the clamp-position dialog to cancel the entire operation; distinguish cancellation from No, which keeps drag-and-drop insertion without clamping.
 
 ## [v2.1.0-RC10] - 2026-10-06
 
