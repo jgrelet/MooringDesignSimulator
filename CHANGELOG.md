@@ -9,6 +9,8 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Cancel deferred layout callbacks when graphics views are destroyed, preventing errors after generating or closing PDF previews.
+
 - Preserve nearby-library lookup precedence on Linux when a project stores a missing Windows library path.
 
 - Update command-line help to show the current launcher and remove obsolete attribution.
