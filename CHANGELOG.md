@@ -25,6 +25,8 @@ Versions follow the project Git tags.
 
 ### Changed
 
+- Modernize the anchored library browser with a compact close button that turns red on hover, standard category tabs, read-only row tables and a clearable filter that preserves the open category.
+
 - Leave the author blank by default in new global configurations.
 - Separate configuration, working cache and rotating logs without repeating the application name in Windows AppData; retain access to existing session recovery files.
 - Align Edit menu shortcuts and group JSON/V1 exports under File > Export; add report generation to File > Print.
