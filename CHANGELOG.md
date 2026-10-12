@@ -9,6 +9,7 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Omit anchor deployment depths and position metadata from copied segments to avoid importing a source seabed constraint into another design.
 - Cancel deferred layout callbacks when graphics views are destroyed, preventing errors after generating or closing PDF previews.
 
 - Preserve nearby-library lookup precedence on Linux when a project stores a missing Windows library path.
@@ -27,6 +28,7 @@ Versions follow the project Git tags.
 
 ### Changed
 
+- Show Recommended anchor dry first in bold, followed by Selected anchor dry; explain the operational doubling guideline up to about 1.5 t of selected dry ballast and the need to respect component breaking loads.
 - Modernize the anchored library browser with a compact close button that turns red on hover, standard category tabs, read-only row tables and a clearable filter that preserves the open category.
 
 - Leave the author blank by default in new global configurations.
@@ -36,6 +38,8 @@ Versions follow the project Git tags.
 
 ### Added
 
+- Add Edit > Unlock instruments and Unlock rope lengths as family-wide actions with one-step Undo, preserving attachments and fixed rope lengths.
+- Choose absolute immersion change (ΔZ), stretched rope length (LS, m), or stretch percentage (LS, %) beside Display in read-only simulated plans.
 - Add Configuration > Clean cache with confirmation, protection of open moorings and session recovery, and warnings for files that cannot be removed.
 
 ## [v2.1.0-RC11] - 2026-10-10
