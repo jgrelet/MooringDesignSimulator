@@ -9,6 +9,8 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Correct launch traction and the structural anchor limit so buoyancy adds to drag during descent instead of reducing the calculated tension.
+
 - Block project simulations unless the main line ends with an anchor, with an explanatory warning before calculation.
 - Omit anchor deployment depths and position metadata from copied segments to avoid importing a source seabed constraint into another design.
 - Cancel deferred layout callbacks when graphics views are destroyed, preventing errors after generating or closing PDF previews.
