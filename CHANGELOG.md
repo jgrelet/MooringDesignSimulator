@@ -31,6 +31,7 @@ Versions follow the project Git tags.
 
 ### Changed
 
+- Use consistent cable and component-library terminology in application help.
 - Show Recommended anchor dry first in bold, followed by Selected anchor dry; explain the operational doubling guideline up to about 1.5 t of selected dry ballast and the need to respect component breaking loads.
 - Modernize the anchored library browser with a compact close button that turns red on hover, standard category tabs, read-only row tables and a clearable filter that preserves the open category.
 
