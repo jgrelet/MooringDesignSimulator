@@ -9,6 +9,9 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Synchronize segment-table selection from both Conception and simulated plans without switching the active tab, highlighting the entire selected row in bold.
+- Resolve unique V1 library names across case, whitespace, hyphen and underscore differences and export their canonical spelling; report ambiguous names without guessing.
+
 - Remove temporary report images when chart or table preparation fails before PDF construction.
 - Explain that a library must be loaded before clamping a library component instead of raising an error when no library is available.
 
@@ -36,6 +39,9 @@ Versions follow the project Git tags.
 
 ### Changed
 
+- Show calibrated counter length for every cable and distinguish individual component rows with black text and blue backgrounds for instruments, releases, anchors and the head float in PDF reports.
+- Add undoable Lock/Unlock context actions for instrument depths and eligible fixed cable lengths; retain padlocks without blue locked-length text.
+
 - Use consistent cable and component-library terminology in application help.
 - Show Recommended anchor dry first in bold, followed by Selected anchor dry; explain the operational doubling guideline up to about 1.5 t of selected dry ballast and the need to respect component breaking loads.
 - Modernize the anchored library browser with a compact close button that turns red on hover, standard category tabs, read-only row tables and a clearable filter that preserves the open category.
@@ -46,6 +52,9 @@ Versions follow the project Git tags.
 - Use a 1 m rope marking tail by default for new configurations; preserve saved tail lengths.
 
 ### Added
+
+- Choose and remember PDF report chapters, with a persistent non-printing Contents sidebar in the preview and PDF bookmarks for external readers.
+- Add nine blank, fillable deployment fields to the first page of reports and A3 preparation sheets.
 
 - Add Edit > Unlock instruments and Unlock rope lengths as family-wide actions with one-step Undo, preserving attachments and fixed rope lengths.
 - Choose absolute immersion change (ΔZ), stretched rope length (LS, m), or stretch percentage (LS, %) beside Display in read-only simulated plans.
