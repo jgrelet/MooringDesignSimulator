@@ -7,6 +7,8 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC12] - 2026-10-14
+
 ### Fixed
 
 - Synchronize segment-table selection from both Conception and simulated plans without switching the active tab, highlighting the entire selected row in bold.
