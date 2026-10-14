@@ -9,6 +9,11 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Remove temporary report images when chart or table preparation fails before PDF construction.
+- Explain that a library must be loaded before clamping a library component instead of raising an error when no library is available.
+
+- Reject non-finite rope lengths when locking a prepared length, before writing project data.
+
 - Correct launch traction and the structural anchor limit so buoyancy adds to drag during descent instead of reducing the calculated tension.
 
 - Block project simulations unless the main line ends with an anchor, with an explanatory warning before calculation.
