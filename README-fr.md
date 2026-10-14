@@ -6,7 +6,9 @@
 
 Mooring Design Simulator est une application de bureau qui associe un concepteur graphique, une bibliothèque de composants et un calcul d’équilibre statique. Elle permet de comparer un mouillage sans courant et sous différents profils de courant, puis de préparer les rapports et documents nécessaires à sa mise en œuvre.
 
-**Version documentée : 2.1.0-RC11 — préversion.**
+**Version documentée : 2.1.0-RC12 — préversion de test.**
+
+La documentation couvre RC12, préparée pour les tests. Les liens RC11 ci-dessous restent ceux de la version publiée tant que les nouveaux fichiers de test ne sont pas mis à disposition.
 
 [Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) · [Télécharger depuis OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
 
