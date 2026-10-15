@@ -7,6 +7,15 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Changed
+
+- Add a Comments frame filling the remaining report cover-page space below the fieldwork header.
+- Use explicit PDF bookmark destinations to prevent invalid-location warnings in the Qt report preview.
+- Offer Cancel or Go to conception from the read-only simulation notice.
+- Rename the preparation-sheet action to Deployment Sheet and place its buoy toolbar shortcut immediately before Generate report, available before simulation.
+- Start report Inventory on a new page and omit the no-current reference table from Environmental current profiles.
+- Display environmental current speeds with three decimal places while preserving calculation precision.
+
 ## [v2.1.0-RC12] - 2026-10-14
 
 ### Fixed
