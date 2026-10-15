@@ -7,6 +7,11 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Added
+
+- Load component libraries independently from XLS or XLSX workbooks, with identical V2 validation and physical-value normalization.
+- Use separate SQLite caches for same-name XLS and XLSX libraries; reject Excel error cells and formulas without saved results before importing.
+
 ### Changed
 
 - Add a Comments frame filling the remaining report cover-page space below the fieldwork header.
