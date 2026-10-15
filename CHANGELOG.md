@@ -9,6 +9,7 @@ Versions follow the project Git tags.
 
 ### Added
 
+- Prepare corrected rope lengths for a selected static scenario while preserving scientific immersion targets: review staged rope unlocks, sliding clamps and target residuals, then apply one undoable change. Retain the initial lengths and preparation status in projects, result tables, PDF reports and Deployment Sheets.
 - Load component libraries independently from XLS or XLSX workbooks, with identical V2 validation and physical-value normalization.
 - Use separate SQLite caches for same-name XLS and XLSX libraries; reject Excel error cells and formulas without saved results before importing.
 
@@ -20,6 +21,10 @@ Versions follow the project Git tags.
 - Rename the preparation-sheet action to Deployment Sheet and place its buoy toolbar shortcut immediately before Generate report, available before simulation.
 - Start report Inventory on a new page and omit the no-current reference table from Environmental current profiles.
 - Display environmental current speeds with three decimal places while preserving calculation precision.
+
+### Fixed
+
+- Preserve the mooring head's design immersion during rope preparation, including clamp-only targets; show actual before/after immersions, cable-length changes, distinct current sources and overall calculation progress.
 
 ## [v2.1.0-RC12] - 2026-10-14
 
