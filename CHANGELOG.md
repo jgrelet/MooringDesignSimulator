@@ -7,6 +7,10 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Changed
+
+- Use a mooring-and-launch-arrow simulation icon and add a cable-and-ruler Adjust rope lengths shortcut immediately after it in the toolbar.
+
 ## [v2.1.0-RC13] - 2026-10-16
 
 ### Added

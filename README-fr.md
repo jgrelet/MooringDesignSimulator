@@ -8,9 +8,9 @@ Mooring Design Simulator est une application de bureau qui associe un concepteur
 
 **Version documentée : 2.1.0-RC13 — préversion de test.**
 
-La documentation couvre RC13. Les liens de téléchargement RC11 ci-dessous restent ceux de la distribution publique jusqu’à la mise à disposition des fichiers de test RC13 par le mainteneur.
+La documentation et les liens de téléchargement GitHub ci-dessous concernent la préversion de test RC13.
 
-[Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) · [Télécharger depuis OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
+[Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC13) · [Télécharger depuis OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
 
 ## Fonctionnalités
 
@@ -23,9 +23,9 @@ La documentation couvre RC13. Les liens de téléchargement RC11 ci-dessous rest
 - Générer des rapports PDF et des fiches de préparation A3 avec marquages des cordages et numéros de série des instruments.
 - Importer et exporter les projets au format historique Mooring Simulator V1, avec contrôles de compatibilité.
 
-![Conception de plusieurs mouillages](https://raw.githubusercontent.com/wiki/jgrelet/MooringDesignSimulator/images/mooring-designer-rc8.png)
+![Vue de conception RC13](https://raw.githubusercontent.com/wiki/jgrelet/MooringDesignSimulator/images/mooring-designer-rc13.png)
 
-<p align="center"><em>Conception sur deux colonnes, plusieurs mouillages ouverts et onglets de simulation.</em></p>
+<p align="center"><em>RC13 — Conception sur deux colonnes, librairie d’instruments, éditeur de composants et onglets de simulation.</em></p>
 
 ![Résultats de simulation](https://raw.githubusercontent.com/wiki/jgrelet/MooringDesignSimulator/images/mooring-simulation-results-rc8.png)
 
@@ -33,7 +33,7 @@ La documentation couvre RC13. Les liens de téléchargement RC11 ci-dessous rest
 
 ## Démarrer
 
-1. Télécharger l’archive d’installation depuis [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) ou [OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx), correspondant au système et au processeur : Windows, Linux ou macOS. Les archives Windows et macOS sont des ZIP ; celles de Linux sont au format `.tar.gz`. Pour macOS, choisir arm64 pour Apple Silicon (M1–M4) ou amd64 pour Intel. Extraire entièrement l’archive.
+1. Télécharger l’archive d’installation depuis [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC13) ou [OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx), correspondant au système et au processeur : Windows, Linux ou macOS. Les archives Windows et macOS sont des ZIP ; celles de Linux sont au format `.tar.gz`. Pour macOS, choisir arm64 pour Apple Silicon (M1–M4) ou amd64 pour Intel. Extraire entièrement l’archive.
 2. Conserver l’application avec les dossiers `library/` et `examples/` fournis.
 3. Ouvrir un exemple, adapter sa conception et lancer la simulation.
 
