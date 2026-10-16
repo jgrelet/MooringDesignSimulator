@@ -15,6 +15,8 @@ Versions follow the project Git tags.
 
 ### Changed
 
+- Open global configuration for every new mooring without inheriting water depth; show the imposed anchor depth in surface mode, retaining decimal precision when converting depth references.
+- Configure and remember rope preparation length step and immersion tolerance (both default to 0.1 m); keep diagram labels compact and render validated preparation immersions on the Deployment Sheet.
 - Add a Comments frame filling the remaining report cover-page space below the fieldwork header.
 - Use explicit PDF bookmark destinations to prevent invalid-location warnings in the Qt report preview.
 - Offer Cancel or Go to conception from the read-only simulation notice.
@@ -24,6 +26,9 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Preserve imposed clamp immersions after component geometry edits: confirm sliding attachments together, cancel the entire edit, and warn only for targets outside their original support cable.
+- Use simulated immersions in PDF mooring figures, include open mooring and current profiles in Charts, keep Deployment and Recovery together, and show preparation validation only on the first page with more drawing space on later Deployment Sheet pages.
+- Use the imposed anchor depth consistently when validating rope preparation; explain rejected proposals and show progress from zero in a more compact calculation window.
 - Preserve the mooring head's design immersion during rope preparation, including clamp-only targets; show actual before/after immersions, cable-length changes, distinct current sources and overall calculation progress.
 
 ## [v2.1.0-RC12] - 2026-10-14
