@@ -7,6 +7,8 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC13] - 2026-10-16
+
 ### Added
 
 - Prepare corrected rope lengths for a selected static scenario while preserving scientific immersion targets: review staged rope unlocks, sliding clamps and target residuals, then apply one undoable change. Retain the initial lengths and preparation status in projects, result tables, PDF reports and Deployment Sheets.

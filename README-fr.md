@@ -6,14 +6,15 @@
 
 Mooring Design Simulator est une application de bureau qui associe un concepteur graphique, une bibliothèque de composants et un calcul d’équilibre statique. Elle permet de comparer un mouillage sans courant et sous différents profils de courant, puis de préparer les rapports et documents nécessaires à sa mise en œuvre.
 
-**Version documentée : 2.1.0-RC12 — préversion de test.**
+**Version documentée : 2.1.0-RC13 — préversion de test.**
 
-La documentation couvre RC12, préparée pour les tests. Les liens RC11 ci-dessous restent ceux de la version publiée tant que les nouveaux fichiers de test ne sont pas mis à disposition.
+La documentation couvre RC13. Les liens de téléchargement RC11 ci-dessous restent ceux de la distribution publique jusqu’à la mise à disposition des fichiers de test RC13 par le mainteneur.
 
 [Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC11) · [Télécharger depuis OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
 
 ## Fonctionnalités
 
+- Préparer les longueurs corrigées des câbles pour un scénario statique en conservant les immersions scientifiques ; retrouver la préparation validée dans les rapports PDF et Deployment Sheets.
 - Concevoir plusieurs mouillages dans des onglets indépendants ; dupliquer un mouillage ou copier des groupes de composants avec leurs instruments clampés.
 - Définir les positions imposées, verrouiller les longueurs standards préparées et adapter la ligne à la bathymétrie.
 - Gérer une bibliothèque de flotteurs, instruments, câbles, cordages, largueurs, terminaux et lests.
