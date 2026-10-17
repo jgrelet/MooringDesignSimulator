@@ -7,6 +7,14 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Added
+
+- Configure extensible rope-counter measurement profiles and explicitly assign cable references to them. Keep reusable templates and independent project copies, including JSON exports; apply each cable's coefficient to counter lengths and clamp markings in PDF reports without changing simulation results.
+
+### Fixed
+
+- Restore drag-and-drop reordering from design images and labels, with an insertion marker, edge scrolling and undo/redo. Move a support together with its clamped instruments, preserving their attachment relationships and confirming geometry changes.
+
 ### Changed
 
 - Use a mooring-and-launch-arrow simulation icon and add a cable-and-ruler Adjust rope lengths shortcut immediately after it in the toolbar.
