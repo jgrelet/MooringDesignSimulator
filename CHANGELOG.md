@@ -17,6 +17,8 @@ Versions follow the project Git tags.
 
 ### Changed
 
+- Provide one versioned SHA-256 manifest for release downloads instead of individual checksum sidecars.
+
 - Use a mooring-and-launch-arrow simulation icon and add a cable-and-ruler Adjust rope lengths shortcut immediately after it in the toolbar.
 
 ## [v2.1.0-RC13] - 2026-10-16
