@@ -13,6 +13,7 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Keep the simulation results placeholder usable when optional Qt chart dependencies cannot load.
 - Restore drag-and-drop reordering from design images and labels, with an insertion marker, edge scrolling and undo/redo. Move a support together with its clamped instruments, preserving their attachment relationships and confirming geometry changes.
 
 ### Changed
