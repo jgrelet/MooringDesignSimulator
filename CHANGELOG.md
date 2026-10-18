@@ -13,6 +13,7 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Preserve the selected segment when switching between simulation results and Conception, including clamped instruments and detached results.
 - Keep scientific immersion targets distinct from nominal clamp depths when checking a proposed rope-length correction.
 - Keep the simulation results placeholder usable when optional Qt chart dependencies cannot load.
 - Restore drag-and-drop reordering from design images and labels, with an insertion marker, edge scrolling and undo/redo. Move a support together with its clamped instruments, preserving their attachment relationships and confirming geometry changes.
