@@ -9,9 +9,23 @@ Versions follow the project Git tags.
 
 ### Added
 
+- Show the packaged UTC build date after the version in About and the startup splash, with an explicit source-checkout label when running uncompiled code.
+
 - Configure extensible rope-counter measurement profiles and explicitly assign cable references to them. Keep reusable templates and independent project copies, including JSON exports; apply each cable's coefficient to counter lengths and clamp markings in PDF reports without changing simulation results.
 
 ### Fixed
+
+- Retain the selected current scenario when reopening rope preparation and default PDF export to the valid saved Preparation, showing its scenario in the source selector and chart captions; distinguish length-correction iterations from the solver work during validation.
+
+- Keep PDF report mooring diagrams at the same relative component size as Deployment Sheets, avoiding extra pages caused by enlarging the drawing when serial-number fields are omitted.
+
+- Restore inherited cursors after nested preparation operations so the wait cursor does not remain active after viewing Preparation.
+
+- Keep diagram-source and elongation metadata on the A4 report cover only, without repeating it in the figure legend or Summary; remove the repeated schematic caption from figure pages.
+
+- Refresh the Preparation drawing and Achieved values from the same saved-scenario equilibrium, include free instruments in its immersion table, and synchronize diagram/table selection, scrolling and segment status in docked and detached views.
+
+- Include a Cover page bookmark in PDF reports so the contents sidebar and external PDF readers can return directly to the first page.
 
 - Preserve the selected segment when switching between simulation results and Conception, including clamped instruments and detached results.
 - Keep scientific immersion targets distinct from nominal clamp depths when checking a proposed rope-length correction.
@@ -19,6 +33,8 @@ Versions follow the project Git tags.
 - Restore drag-and-drop reordering from design images and labels, with an insertion marker, edge scrolling and undo/redo. Move a support together with its clamped instruments, preserving their attachment relationships and confirming geometry changes.
 
 ### Changed
+
+- Preserve the original editable Conception alongside a separately saved, renamable Preparation; choose either valid state for PDF reports and Deployment Sheets, with or without calculated rope elongation, and identify the diagram source, scenario and elongation choice in each document.
 
 - Provide one versioned SHA-256 manifest for release downloads instead of individual checksum sidecars.
 
