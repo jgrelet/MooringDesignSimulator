@@ -6,11 +6,11 @@
 
 Mooring Design Simulator est une application de bureau qui associe un concepteur graphique, une bibliothèque de composants et un calcul d’équilibre statique. Elle permet de comparer un mouillage sans courant et sous différents profils de courant, puis de préparer les rapports et documents nécessaires à sa mise en œuvre.
 
-**Version documentée : 2.1.0-RC13 — préversion de test.**
+**Version documentée : 2.1.0-RC14 — préversion de test.**
 
-La documentation et les liens de téléchargement GitHub ci-dessous concernent la préversion de test RC13.
+La documentation et les liens de téléchargement GitHub ci-dessous concernent la préversion de test RC14.
 
-[Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC13) · [Télécharger depuis OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
+[Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC14) · [Télécharger depuis OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
 
 ## Fonctionnalités
 
@@ -33,7 +33,7 @@ La documentation et les liens de téléchargement GitHub ci-dessous concernent l
 
 ## Démarrer
 
-1. Télécharger l’archive d’installation depuis [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC13) ou [OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx), correspondant au système et au processeur : Windows, Linux ou macOS. Les archives Windows et macOS sont des ZIP ; celles de Linux sont au format `.tar.gz`. Pour macOS, choisir arm64 pour Apple Silicon (M1–M4) ou amd64 pour Intel. Extraire entièrement l’archive.
+1. Télécharger l’archive d’installation depuis [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC14) ou [OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx), correspondant au système et au processeur : `mooringDesignSimulator-windows-amd64.zip`, `mooringDesignSimulator-linux-amd64.tar.gz` ou `mooringDesignSimulator-linux-arm64.tar.gz`. Extraire entièrement l’archive. Les paquets macOS sont construits sur demande et ne sont pas inclus dans cette publication RC14.
 2. Conserver l’application avec les dossiers `library/` et `examples/` fournis.
 3. Ouvrir un exemple, adapter sa conception et lancer la simulation.
 

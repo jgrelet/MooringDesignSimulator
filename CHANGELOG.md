@@ -7,6 +7,8 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC14] - 2026-10-24
+
 ### Added
 
 - Show the packaged UTC build date after the version in About and the startup splash, with an explicit source-checkout label when running uncompiled code.
