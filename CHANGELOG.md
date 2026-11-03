@@ -7,6 +7,16 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC15] - 2026-11-03
+
+### Fixed
+
+- Make validated rope preparation the new editable Conception by adopting prepared cable lengths, clamp positions and staged rope locks while preserving scientific targets and initial-length comparisons; restore the complete previous working state with Undo.
+
+- Recalculate No current and existing Current scenarios from validated prepared cable lengths, retaining each current profile and the editable Conception; identify the geometry source in results and keep tables, charts and simulated plans consistent.
+
+- Keep scientific immersion targets editable after rope preparation, identify them with blue locks and their target values in the designer, and offer rope recalculation without silently changing cable lengths or clamp positions.
+
 ## [v2.1.0-RC14] - 2026-10-24
 
 ### Added

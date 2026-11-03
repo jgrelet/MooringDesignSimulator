@@ -6,15 +6,15 @@
 
 Mooring Design Simulator est une application de bureau qui associe un concepteur graphique, une bibliothèque de composants et un calcul d’équilibre statique. Elle permet de comparer un mouillage sans courant et sous différents profils de courant, puis de préparer les rapports et documents nécessaires à sa mise en œuvre.
 
-**Version documentée : 2.1.0-RC14 — préversion de test.**
+**Version documentée : 2.1.0-RC15 — préversion de test.**
 
-La documentation et les liens de téléchargement GitHub ci-dessous concernent la préversion de test RC14.
+La documentation et les liens de téléchargement GitHub ci-dessous concernent la préversion de test RC15.
 
-[Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC14) · [Télécharger depuis OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
+[Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC15) · [Dossier OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)
 
 ## Fonctionnalités
 
-- Préparer les longueurs corrigées des câbles pour un scénario statique en conservant les immersions scientifiques ; retrouver la préparation validée dans les rapports PDF et Deployment Sheets.
+- Adopter les longueurs de câbles et positions de clamps préparées comme conception modifiable, conserver les objectifs scientifiques et recalculer les scénarios de courant de façon cohérente ; identifier l’origine des résultats et retrouver la préparation dans les rapports PDF et Deployment Sheets.
 - Concevoir plusieurs mouillages dans des onglets indépendants ; dupliquer un mouillage ou copier des groupes de composants avec leurs instruments clampés.
 - Définir les positions imposées, verrouiller les longueurs standards préparées et adapter la ligne à la bathymétrie.
 - Gérer une bibliothèque de flotteurs, instruments, câbles, cordages, largueurs, terminaux et lests.
@@ -33,7 +33,7 @@ La documentation et les liens de téléchargement GitHub ci-dessous concernent l
 
 ## Démarrer
 
-1. Télécharger l’archive d’installation depuis [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC14) ou [OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx), correspondant au système et au processeur : `mooringDesignSimulator-windows-amd64.zip`, `mooringDesignSimulator-linux-amd64.tar.gz` ou `mooringDesignSimulator-linux-arm64.tar.gz`. Extraire entièrement l’archive. Les paquets macOS sont construits sur demande et ne sont pas inclus dans cette publication RC14.
+1. Télécharger l’archive d’installation depuis [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC15), correspondant au système et au processeur : `mooringDesignSimulator-windows-amd64.zip`, `mooringDesignSimulator-linux-amd64.tar.gz` ou `mooringDesignSimulator-linux-arm64.tar.gz`. Extraire entièrement l’archive. Les paquets macOS sont construits sur demande et ne sont pas inclus dans cette publication RC15.
 2. Conserver l’application avec les dossiers `library/` et `examples/` fournis.
 3. Ouvrir un exemple, adapter sa conception et lancer la simulation.
 
