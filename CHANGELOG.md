@@ -7,6 +7,26 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Added
+
+- Reorder design and result tabs by dragging, including detached results; insert new current scenarios before Preparation and preserve reference tabs when closing or docking results.
+
+### Fixed
+
+- Use oceanographic cruise terminology in preparation guidance and multi-mooring help.
+
+- Allow scientific immersion targets to be created directly on floats and instruments in existing and new mooring designs, without changing cable lengths or clamp positions.
+
+- Avoid duplicated segment numbers in report figures, preserving the intended drawing scale after adding designer label prefixes.
+
+- Prefix component labels in designer views with their segment number (#n), keeping label spacing consistent with the displayed text.
+
+- Respect signed horizontal currents in normal and tangential static drag, including counter-currents at different depths; reversing a profile mirrors the mooring geometry while preserving depths, tensions and ballast guidance in symmetric conditions.
+Normal and tangential flow paths now use their signed projected velocities, even in countercurrent flow.
+in mooring\simulation\simulation_solver_analysis.py started at line 315
+
+- Persist surface-mode water depth from the imposed anchor depth in SQLite projects and JSON snapshots; normalize existing projects on reopening without changing cable lengths or scientific targets, and preserve valid rope preparations.
+
 ## [v2.1.0-RC15] - 2026-11-03
 
 ### Fixed
@@ -201,7 +221,7 @@ Versions follow the project Git tags.
 - Show a padlock after component names in the designer's right-hand column for imposed depths, including clamped instruments, to distinguish them from free positions and locked rope lengths.
 - Rename or duplicate a mooring from its tab's right-click menu; renaming a saved mooring saves its edits and changes the project filename.
 - Open moorings in independent designer tabs, with separate simulations, undo histories, configurations and save/close prompts.
-- Duplicate a complete mooring into a new unsaved tab for preparing nearby campaign stations.
+- Duplicate a complete mooring into a new unsaved tab for preparing nearby cruise stations.
 - Select multiple segments with Ctrl/Shift and copy, cut or paste groups between moorings, preserving clamped instruments and locked lengths; convert depth references and reject duplicate ajustable ropes or ambiguous auto spans.
 - Warn on V1 export when component names are absent from the supplied V1.1 reference library; explain silent omissions during V1 import and include Library-v1.xls for compatibility checks.
 - Show a red [length undef] marker in the designer for ropes without a positive entered or calculated length.
