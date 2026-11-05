@@ -25,6 +25,8 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Share the last zoom level across Design, simulation and Preparation views of the current mooring, including numeric and slider controls, recalculated plans and detached results.
+
 - Restore the current segment and its visible diagram position when switching between Design, simulation and Preparation tabs; synchronize the matching results row, including detached views and clamped instruments.
 
 - Keep the selected one- or two-column Display mode synchronized across Design, simulation and Preparation plans for the current mooring, including recalculation and detached results.
