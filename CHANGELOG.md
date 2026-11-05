@@ -17,6 +17,8 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Identify cables reaching the numerical minimum during rope preparation, focus the limiting segment in the review and Design, and explain how staged locks select the next cable; summarize failed immersion targets without repeated generic warnings.
+
 - Hide dry-mass values in all component tooltips except anchors, retaining anchor dry-to-submerged mass conversion and the submerged masses used by the solver.
 
 - Keep clamped instruments next to their support when renumbering segments and always display their names, including instruments without a depth constraint.
