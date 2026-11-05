@@ -6,6 +6,8 @@
 
 Mooring Design Simulator est une application de bureau qui associe un concepteur graphique, une bibliothèque de composants et un calcul d’équilibre statique. Elle permet de comparer un mouillage sans courant et sous différents profils de courant, puis de préparer les rapports et documents nécessaires à sa mise en œuvre.
 
+Mooring Design Simulator est issu du travail d’Arnaud Le Fur, alors élève ingénieur, réalisé en 2014 au LOPS de l’Ifremer dans le cadre du stage « Développement et validation d’un logiciel de simulation de ligne de mouillage ». Ce travail avait pour objectif de remplacer deux logiciels utilisés par la communauté océanographique, tous deux développés en MATLAB : Runmoor et Mooring Design and Dynamics (MDD). Cette première version, écrite en Python 2 avec Qt4, n’étant plus maintenable et présentant certaines limitations, nous avons entrepris de reprendre son développement sous Python 3.14 et PySide6.
+
 **Version documentée : 2.1.0-RC15 — préversion de test.**
 
 La documentation et les liens de téléchargement GitHub ci-dessous concernent la préversion de test RC15.

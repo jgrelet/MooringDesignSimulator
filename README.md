@@ -6,6 +6,8 @@
 
 The MooringDesignSimulator is a desktop application that combines a graphical design tool, a component catalog, and static elongation calculations. It allows users to compare different mooring configurations based on various current profiles and to prepare the reports and workshop documents needed for their implementation at sea.
 
+Mooring Design Simulator originated from the work of Arnaud Le Fur, then an engineering student, during a 2014 internship at Ifremer’s LOPS laboratory entitled “Développement et validation d’un logiciel de simulation de ligne de mouillage” (“Development and validation of software for simulating mooring lines”). The aim was to replace two MATLAB programs used by the oceanographic community: Runmoor and Mooring Design and Dynamics (MDD). With the original Python 2 and Qt4 version no longer maintainable and subject to certain limitations, we have resumed its development using Python 3.14 and PySide6.
+
 **Documented version: 2.1.0-RC15 — test candidate.**
 
 The documentation and GitHub download links below refer to the RC15 test candidate.

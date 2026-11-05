@@ -9,13 +9,27 @@ Versions follow the project Git tags.
 
 ### Changed
 
+- Identify the mooring by its tab/file name in unsaved-changes confirmation messages when closing a tab or the application.
+
+- Show only the current nominal length in simulation and PDF Segments tables; retain initial-length comparisons in the dedicated Preparation tables.
+
+- Make report and Deployment Sheet geometry follow the selected source automatically: nominal Design without added elongation, or validated Preparation with its saved current scenario and elastic elongation; remove the independent elongation checkbox.
+
 - Rename the editable Conception tab to Design throughout the interface and report sources; clarify that Design depth records nominal start or clamp-attachment depth at simulation time.
 
 ### Added
 
+- Document the software's origins in Arnaud Le Fur's 2014 internship at Ifremer and its redevelopment from Python 2/Qt4 to Python 3.14/PySide6 in the project introductions.
+
 - Reorder design and result tabs by dragging, including detached results; insert new current scenarios before Preparation and preserve reference tabs when closing or docking results.
 
 ### Fixed
+
+- Restore the current segment and its visible diagram position when switching between Design, simulation and Preparation tabs; synchronize the matching results row, including detached views and clamped instruments.
+
+- Keep the selected one- or two-column Display mode synchronized across Design, simulation and Preparation plans for the current mooring, including recalculation and detached results.
+
+- Keep rope-counter calibration open when committing numeric edits; propagate Default to every profile, require explicit individual corrections before OK, and clarify saved calibration and cable assignments.
 
 - Clarify the rope-preparation reference checkbox with explicit keep/replace choices, a numerical example and guidance for the first preparation.
 
