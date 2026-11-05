@@ -17,6 +17,10 @@ Versions follow the project Git tags.
 
 ### Fixed
 
+- Clarify the rope-preparation reference checkbox with explicit keep/replace choices, a numerical example and guidance for the first preparation.
+
+- Diagnose unavailable rope-preparation intervals, distinguish staged cable locks from the seabed-adjustment role, and focus the relevant cable with an appropriate corrective action.
+
 - Identify cables reaching the numerical minimum during rope preparation, focus the limiting segment in the review and Design, and explain how staged locks select the next cable; summarize failed immersion targets without repeated generic warnings.
 
 - Hide dry-mass values in all component tooltips except anchors, retaining anchor dry-to-submerged mass conversion and the submerged masses used by the solver.
