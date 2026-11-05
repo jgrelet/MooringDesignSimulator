@@ -7,11 +7,19 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Changed
+
+- Rename the editable Conception tab to Design throughout the interface and report sources; clarify that Design depth records nominal start or clamp-attachment depth at simulation time.
+
 ### Added
 
 - Reorder design and result tabs by dragging, including detached results; insert new current scenarios before Preparation and preserve reference tabs when closing or docking results.
 
 ### Fixed
+
+- Hide dry-mass values in all component tooltips except anchors, retaining anchor dry-to-submerged mass conversion and the submerged masses used by the solver.
+
+- Keep clamped instruments next to their support when renumbering segments and always display their names, including instruments without a depth constraint.
 
 - Use oceanographic cruise terminology in preparation guidance and multi-mooring help.
 
