@@ -8,11 +8,11 @@ The MooringDesignSimulator is a desktop application that combines a graphical de
 
 Mooring Design Simulator originated from the work of Arnaud Le Fur, then an engineering student, during a 2014 internship at Ifremer’s LOPS laboratory entitled “Développement et validation d’un logiciel de simulation de ligne de mouillage” (“Development and validation of software for simulating mooring lines”). The aim was to replace two MATLAB programs used by the oceanographic community: Runmoor and Mooring Design and Dynamics (MDD). With the original Python 2 and Qt4 version no longer maintainable and subject to certain limitations, we have resumed its development using Python 3.14 and PySide6.
 
-**Documented version: 2.1.0-RC15 — test candidate.**
+**Documented version: 2.1.0-RC16 — test candidate.**
 
-The documentation and GitHub download links below refer to the RC15 test candidate.
+The documentation and GitHub download links below refer to the RC16 test candidate.
 
-[Download from GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC15) · [OneDrive folder](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
+[Download from GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC16) · [OneDrive folder](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
 
 ## Features
 
@@ -35,7 +35,7 @@ The documentation and GitHub download links below refer to the RC15 test candida
 
 ## Getting started
 
-1. Download the installation archive from [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC15), matching your operating system and processor: `mooringDesignSimulator-windows-amd64.zip`, `mooringDesignSimulator-linux-amd64.tar.gz` or `mooringDesignSimulator-linux-arm64.tar.gz`. Extract the archive completely. macOS builds are available only on demand and are not included in this RC15 publication.
+1. Download the installation archive from [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC16), matching your operating system and processor: `mooringDesignSimulator-windows-amd64.zip`, `mooringDesignSimulator-linux-amd64.tar.gz` or `mooringDesignSimulator-linux-arm64.tar.gz`. Extract the archive completely. macOS builds are available only on demand and are not included in this RC16 publication.
 2. Keep the application with the supplied `library/` and `examples/` folders.
 3. Open an example, adapt its design and run the simulation.
 

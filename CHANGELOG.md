@@ -7,6 +7,8 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC16] - 2026-11-06
+
 ### Changed
 
 - Identify the mooring by its tab/file name in unsaved-changes confirmation messages when closing a tab or the application.
@@ -52,8 +54,6 @@ Versions follow the project Git tags.
 - Prefix component labels in designer views with their segment number (#n), keeping label spacing consistent with the displayed text.
 
 - Respect signed horizontal currents in normal and tangential static drag, including counter-currents at different depths; reversing a profile mirrors the mooring geometry while preserving depths, tensions and ballast guidance in symmetric conditions.
-Normal and tangential flow paths now use their signed projected velocities, even in countercurrent flow.
-in mooring\simulation\simulation_solver_analysis.py started at line 315
 
 - Persist surface-mode water depth from the imposed anchor depth in SQLite projects and JSON snapshots; normalize existing projects on reopening without changing cable lengths or scientific targets, and preserve valid rope preparations.
 
