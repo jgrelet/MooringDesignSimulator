@@ -11,6 +11,12 @@ Versions follow the project Git tags.
 
 ### Changed
 
+- Preserve LaTeX escapes through GitHub Markdown rendering and explain the signed tangential-drag correction with an inversion example in the bilingual wiki.
+
+- Render mathematical formulas consistently across the bilingual wiki and align drag, signed drift and cable-elongation explanations with the current solver.
+
+- Reorganize the bilingual user wiki around current workflows, with updated screenshots, scientific-target and counter-calibration guidance, shipped examples, PDF outputs and Excel library onboarding.
+
 - Identify the mooring by its tab/file name in unsaved-changes confirmation messages when closing a tab or the application.
 
 - Show only the current nominal length in simulation and PDF Segments tables; retain initial-length comparisons in the dedicated Preparation tables.
@@ -21,11 +27,15 @@ Versions follow the project Git tags.
 
 ### Added
 
+- Illustrate the bilingual wiki introduction with historical context and a centered PIRATA mooring deployment plan.
+
 - Document the software's origins in Arnaud Le Fur's 2014 internship at Ifremer and its redevelopment from Python 2/Qt4 to Python 3.14/PySide6 in the project introductions.
 
 - Reorder design and result tabs by dragging, including detached results; insert new current scenarios before Preparation and preserve reference tabs when closing or docking results.
 
 ### Fixed
+
+- Update the integrated English and French help for current workflows, removing release-candidate notices and correcting segment numbering, signed drag, preparation prerequisites and PDF source guidance.
 
 - Share the last zoom level across Design, simulation and Preparation views of the current mooring, including numeric and slider controls, recalculated plans and detached results.
 
