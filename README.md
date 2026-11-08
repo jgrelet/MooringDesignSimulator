@@ -8,6 +8,14 @@ The MooringDesignSimulator is a desktop application that combines a graphical de
 
 Mooring Design Simulator originated from the work of Arnaud Le Fur, then an engineering student, during a 2014 internship at Ifremer’s LOPS laboratory entitled “Développement et validation d’un logiciel de simulation de ligne de mouillage” (“Development and validation of software for simulating mooring lines”). The aim was to replace two MATLAB programs used by the oceanographic community: Runmoor and Mooring Design and Dynamics (MDD). With the original Python 2 and Qt4 version no longer maintainable and subject to certain limitations, we have resumed its development using Python 3.14 and PySide6.
 
+## News
+
+An experimental rewrite in Rust, mds-gui, is available for Windows and Linux. It aims to speed up calculations and simplify installation through a native application that runs without a Python environment.
+
+This version is still undergoing validation; the user interface (UI) is modeled after the Python V2, but some features may differ from those of the Python version.
+
+Simply copy the binary to the same folder as Python v2, and it will use the same library and example files.
+
 **Documented version: 2.1.0-RC16 — test candidate.**
 
 The documentation and GitHub download links below refer to the RC16 test candidate.
