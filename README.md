@@ -1,5 +1,10 @@
 # Mooring Design Simulator
 
+[![CI](https://github.com/jgrelet/Mooring-simulator-v2/actions/workflows/ci.yml/badge.svg)](https://github.com/jgrelet/Mooring-simulator-v2/actions/workflows/ci.yml)
+[![Release](https://github.com/jgrelet/Mooring-simulator-v2/actions/workflows/release.yml/badge.svg)](https://github.com/jgrelet/Mooring-simulator-v2/actions/workflows/release.yml)
+[![CI](https://github.com/jgrelet/MDS-rs/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jgrelet/MDS-rs/actions/workflows/ci.yml)
+[![Release](https://github.com/jgrelet/MDS-rs/actions/workflows/release.yml/badge.svg)](https://github.com/jgrelet/MDS-rs/actions/workflows/release.yml)
+
 [Version française](README-fr.md).
 
 **Design, simulate and prepare subsurface oceanographic moorings.**
