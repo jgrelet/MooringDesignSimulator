@@ -9,13 +9,11 @@ Versions follow the project Git tags.
 
 ### Fixed
 
-- Highlight the entire row of an individually selected clamped instrument with the standard blue segment frame and reveal its position in Design and results plans.
-
-- Restore component images in the Preparation view using the loaded library, including after changing library paths, without rewriting the saved preparation.
-- Order clamped instruments from top to bottom below their support in Segments tables, preparation target tables and simulation reports while retaining their original segment numbers.
-- Make Unclamp remove the clamped instrument like Delete, preserving its support and restoring the attachment with Undo.
+- Use the current component library for Deployment Sheet and simulation-report images, including saved preparations with outdated library paths, without changing their saved geometry.
 
 ## [v2.1.0-RC17] - 2026-11-13
+
+Rebuilt assets include the validated post-release fixes below. The original published tag is unchanged; release notes identify the rebuild source commit.
 
 ### Added
 
@@ -49,6 +47,12 @@ Versions follow the project Git tags.
 - Identify clamped instruments with (clamped) in Design, the simulation report and the A3 Deployment Sheet.
 
 ### Fixed
+
+- Highlight the entire row of an individually selected clamped instrument with the standard blue segment frame and reveal its position in Design and results plans.
+
+- Restore component images in the Preparation view using the loaded library, including after changing library paths, without rewriting the saved preparation.
+- Order clamped instruments from top to bottom below their support in Segments tables, preparation target tables and simulation reports while retaining their original segment numbers.
+- Make Unclamp remove the clamped instrument like Delete, preserving its support and restoring the attachment with Undo.
 
 - Validate numeric component-editor input once per Enter keypress, avoiding duplicate warnings when geometry rejects an edit.
 

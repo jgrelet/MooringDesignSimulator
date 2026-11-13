@@ -15,6 +15,8 @@ Mooring Design Simulator est issu du travail d’Arnaud Le Fur, alors élève in
 
 **Version documentée : 2.1.0-RC17 — préversion de test.**
 
+Les assets RC17 ont été reconstruits le 13 novembre 2026 depuis le commit source `b082246a5b88d5c3b5381a3c159dc8579064ca25`. Le tag publié reste inchangé ; les notes de release précisent la provenance et le manifeste d’empreintes est actualisé.
+
 La documentation et les liens de téléchargement GitHub ci-dessous concernent la préversion de test RC17.
 
 [Télécharger depuis GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC17) · [Dossier OneDrive](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [Documentation française](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [English documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [Historique des versions](CHANGELOG.md)

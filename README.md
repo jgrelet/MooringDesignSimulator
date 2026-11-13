@@ -23,6 +23,8 @@ Simply copy the binary to the same folder as Python v2, and it will use the same
 
 **Documented version: 2.1.0-RC17 — test candidate.**
 
+RC17 downloadable assets were rebuilt on 13 November 2026 from source commit `b082246a5b88d5c3b5381a3c159dc8579064ca25`. The published tag remains unchanged; see the release notes for build provenance and use the refreshed checksum manifest.
+
 The documentation and GitHub download links below refer to the RC17 test candidate.
 
 [Download from GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC17) · [OneDrive folder](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
