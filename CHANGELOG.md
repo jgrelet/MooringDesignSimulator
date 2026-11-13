@@ -7,6 +7,14 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Fixed
+
+- Highlight the entire row of an individually selected clamped instrument with the standard blue segment frame and reveal its position in Design and results plans.
+
+- Restore component images in the Preparation view using the loaded library, including after changing library paths, without rewriting the saved preparation.
+- Order clamped instruments from top to bottom below their support in Segments tables, preparation target tables and simulation reports while retaining their original segment numbers.
+- Make Unclamp remove the clamped instrument like Delete, preserving its support and restoring the attachment with Undo.
+
 ## [v2.1.0-RC17] - 2026-11-13
 
 ### Added
