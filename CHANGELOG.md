@@ -7,6 +7,63 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC17] - 2026-11-13
+
+### Added
+
+- Apply Flip, Visual scale and Replace component to the Design selection as single undoable group operations; require one component category for grouped replacement.
+
+- Expose Deployment Sheet and Generate report in both File/Print and Report, with shared F7 and F8 shortcuts listed in Help.
+
+- Add a Help menu keyboard-shortcut summary listing configured menu bindings and contextual Design selection keys.
+
+- Review and apply all nominal rope-length corrections together, with a complete preview, cancellation without changes and a single Undo/Redo step.
+
+- Add Design context-menu Move up and Move down actions, plus F1 help, F2 save, F4 rope terminals, F5 simulation and F6 rope-length preparation shortcuts.
+
+- Complete selected rope ends with library terminals in one undoable operation, remembering the terminal and shared-junction choice for the session.
+
+### Changed
+
+- Apply Lock/Unlock to all selected cables or instruments, offer an explicit state for mixed locks, disable category-specific context actions for mixed categories, and distinguish displayed segment numbers from database identifiers in logs.
+
+- Limit Visual scale to selected segments, including single selections, and place Insert alongside Delete in the Design context menu.
+
+- Display mooring lengths, depths and attachment distances with one decimal place in editors, results, preparation tables and messages, while retaining full calculation and saved-value precision.
+
+- Replace cumulative PDF Dz with signed simulated-minus-nominal immersion change and explain every segment-table column separately.
+
+- Explain in Adjust rope lengths that Apply converts depth-locked floats and instruments into blue scientific targets while free instruments and free head references remain free; rope length locks are separate.
+
+
+- Apply component-editor choices immediately and numeric edits on Enter or leaving the field; use Depth constraint as the sole scientific-target selector.
+
+- Identify clamped instruments with (clamped) in Design, the simulation report and the A3 Deployment Sheet.
+
+### Fixed
+
+- Validate numeric component-editor input once per Enter keypress, avoiding duplicate warnings when geometry rejects an edit.
+
+- Keep Copy/Cut/Paste available for mixed Design selections, disable Insert, Move up/down, Clamp and Unclamp for multiple selections, and delete the selected group in one undoable operation while confirming removal of attached components.
+
+- Lock the current instrument depth without moving downstream clamp attachments by retaining the exact calculated position behind the rounded editor display.
+
+- Realign selected-segment highlights after grouped terminal insertion and subsequent grid layout changes.
+
+- Add a separate cable-end connector next to a Chain + Ring assembly, retaining existing connectors and making repeated F4 insertion idempotent.
+
+- Synchronize imposed clamped depths after Design edits and on project open, including F4 with a scientific head reference, without requiring unchanged depth re-entry.
+
+- Use decimetre precision for nominal Design rope corrections, avoiding warnings for centimetre-scale residuals and rounding corrected lengths to 0.1 m.
+
+- Keep imposed clamped-instrument depths and attachment ratios synchronized across affected supports after rope-length corrections, avoiding unnecessary target-depth re-entry.
+
+- Preserve a manually edited rope length when proposing compensation: shortening selects another eligible unlocked rope above, lengthening selects one below, and unavailable compensation produces an explicit error.
+
+- Allow explicit transitions between free position, imposed Design depth and scientific immersion target directly from the constraint selector.
+
+- Refine rounded rope lengths at the selected step when rounding leaves immersion targets outside tolerance, preserving cable locks and the requested tolerance.
+
 ## [v2.1.0-RC16] - 2026-11-06
 
 ### Changed
