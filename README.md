@@ -15,15 +15,13 @@ Mooring Design Simulator originated from the work of Arnaud Le Fur, then an engi
 
 ## News
 
+MDS now includes an optional Rust numerical engine built from `mds-core`, the shared solver crate intended for the Python and Rust applications. In the Python application, enable it in **Global configuration** by selecting the **Rust** solver engine; Python remains the default. **Help > About** identifies the selected engine and native build. 
+
 An experimental rewrite in Rust, mds-gui, is available for Windows and Linux. It aims to speed up calculations and simplify installation through a native application that runs without a Python environment.
 
 This version is still undergoing validation; the user interface (UI) is modeled after the Python V2, but some features may differ from those of the Python version.
 
 Simply copy the binary to the same folder as Python v2, and it will use the same library and example files.
-
-**Documented version: 2.1.0-RC18 — test candidate.**
-
-The documentation and GitHub download links below refer to the RC18 test candidate.
 
 [Download from GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC18) · [OneDrive folder](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
 
