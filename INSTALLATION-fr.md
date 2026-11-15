@@ -14,6 +14,8 @@ L'archive de livraison contient généralement :
 
 ## Installation
 
+L’application distribuée est autonome : aucune installation de Python ou de Rust n’est nécessaire. Son moteur numérique Rust optionnel est inclus ; sélectionner **Rust (experimental)** dans la configuration globale pour l’utiliser. Python reste le moteur de référence par défaut.
+
 1. Téléchargez l'archive correspondant à votre système.
 2. Décompressez toute l'archive dans un dossier de votre choix.
 3. Conservez ensemble l'application, le dossier `library` et le dossier `examples`.

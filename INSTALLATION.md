@@ -14,6 +14,8 @@ The delivery archive usually contains:
 
 ## Installation
 
+The packaged application is standalone: no Python or Rust installation is required. Its optional Rust numerical engine is included; select **Rust (experimental)** in Global configuration to use it. Python remains the default reference engine.
+
 1. Download the archive matching your system.
 2. Extract the full archive to a folder of your choice.
 3. Keep the application, the `library` folder, and the `examples` folder together.

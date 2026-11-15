@@ -21,16 +21,15 @@ This version is still undergoing validation; the user interface (UI) is modeled 
 
 Simply copy the binary to the same folder as Python v2, and it will use the same library and example files.
 
-**Documented version: 2.1.0-RC17 — test candidate.**
+**Documented version: 2.1.0-RC18 — test candidate.**
 
-RC17 downloadable assets were rebuilt on 13 November 2026 from source commit `766c7a124da4471203ed9a0fe855fc2b79f7c1ab`. The published tag remains unchanged; see the release notes for build provenance and use the refreshed checksum manifest.
+The documentation and GitHub download links below refer to the RC18 test candidate.
 
-The documentation and GitHub download links below refer to the RC17 test candidate.
-
-[Download from GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC17) · [OneDrive folder](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
+[Download from GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC18) · [OneDrive folder](https://1drv.ms/f/c/be92ea594b94cdce/IgAfXMAZMKe4RaSl96BxX8dJAfWHU9u-r8ky-FK3yJPCdiw?e=hUyrJx) · [User documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home) · [French documentation](https://github.com/jgrelet/MooringDesignSimulator/wiki/Home-fr) · [Version history](CHANGELOG.md)
 
 ## Features
 
+- Select the bundled experimental Rust numerical engine in Global configuration for simulations, reports and cable preparation; Python remains the default. Help > About identifies the selected engine and native build.
 - Adopt validated prepared cable lengths and clamp positions as the editable design, retain scientific immersion targets and recalculate current scenarios consistently; identify the geometry source in results and record preparation in PDF reports and Deployment Sheets.
 - Design several moorings in separate tabs, duplicate a mooring, or copy groups of components along with their clamped instruments.
 - Impose design positions, protect prepared rope lengths and adapt the line to the bathymetry.
@@ -50,11 +49,11 @@ The documentation and GitHub download links below refer to the RC17 test candida
 
 ## Getting started
 
-1. Download the installation archive from [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC17), matching your operating system and processor: `mooringDesignSimulator-windows-amd64.zip`, `mooringDesignSimulator-linux-amd64.tar.gz` or `mooringDesignSimulator-linux-arm64.tar.gz`. Extract the archive completely. macOS builds are available only on demand and are not included in this RC17 publication.
+1. Download the installation archive from [GitHub](https://github.com/jgrelet/MooringDesignSimulator/releases/tag/v2.1.0-RC18), matching your operating system and processor: `mooringDesignSimulator-windows-amd64.zip`, `mooringDesignSimulator-linux-amd64.tar.gz` or `mooringDesignSimulator-linux-arm64.tar.gz`. Extract the archive completely. macOS builds are available only on demand and are not included in this RC18 publication.
 2. Keep the application with the supplied `library/` and `examples/` folders.
 3. Open an example, adapt its design and run the simulation.
 
-For an existing Windows installation, download [mooringDesignSimulator.exe](https://github.com/jgrelet/MooringDesignSimulator/releases/download/v2.1.0-RC17/mooringDesignSimulator.exe) and replace the executable in the installation folder; keep its library and resources. Verify downloads with [SHA256SUMS-2.1.0-RC17.txt](https://github.com/jgrelet/MooringDesignSimulator/releases/download/v2.1.0-RC17/SHA256SUMS-2.1.0-RC17.txt).
+For an existing Windows installation, download [mooringDesignSimulator.exe](https://github.com/jgrelet/MooringDesignSimulator/releases/download/v2.1.0-RC18/mooringDesignSimulator.exe) and replace the executable in the installation folder; keep its library and resources. Verify downloads with [SHA256SUMS-2.1.0-RC18.txt](https://github.com/jgrelet/MooringDesignSimulator/releases/download/v2.1.0-RC18/SHA256SUMS-2.1.0-RC18.txt).
 
 **Updating on Windows:** if a previous installation already contains the `library/` and `examples/` folders, you can download only `mooringDesignSimulator.exe` and replace the existing executable in that installation folder. Download the full archive if you also want the latest supplied library and examples.
 

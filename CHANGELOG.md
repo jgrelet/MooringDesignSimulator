@@ -7,7 +7,17 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+## [v2.1.0-RC18] - 2026-11-15
+
+### Added
+
+- Show the selected simulation engine and embedded Rust version, build compiler and target in Help > About.
+
+- Add an optional experimental Rust simulation engine in Global configuration, shared by simulation and rope preparation; keep Python as the default reference engine.
+
 ### Fixed
+
+- Explicitly state when no non-zero environmental current profile is defined in the simulation report.
 
 - Use the current component library for Deployment Sheet and simulation-report images, including saved preparations with outdated library paths, without changing their saved geometry.
 
