@@ -7,9 +7,19 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Added
+
+- Choose whether Design clamp distances are displayed from the cable top or bottom without changing attachment geometry.
+
 ### Fixed
 
 - Include elastic cable elongation in Design report calculations, matching simulation physics while retaining the nominal Design diagram.
+
+- Warn when inserting an anchor with an undefined or zero dry mass, while leaving it available for editing.
+
+### Changed
+
+- Omit numerical solver convergence diagnostics from the PDF report Summary; retain physical deployment and recovery results.
 
 ## [v2.1.0-RC18] - 2026-11-15
 
