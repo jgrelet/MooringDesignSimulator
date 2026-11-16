@@ -7,6 +7,10 @@ Versions follow the project Git tags.
 
 ## [Unreleased]
 
+### Fixed
+
+- Include elastic cable elongation in Design report calculations, matching simulation physics while retaining the nominal Design diagram.
+
 ## [v2.1.0-RC18] - 2026-11-15
 
 ### Added
