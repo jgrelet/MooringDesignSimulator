@@ -21,6 +21,10 @@ Versions follow the project Git tags.
 
 ### Changed
 
+- Show the full path to the active library in the library panel and identify the workbook in the Open Excel library and Reload current library tooltips.
+
+- Remember the last library workbook successfully selected with Load new library as the startup default.
+
 - Omit numerical solver convergence diagnostics from the PDF report Summary; retain physical deployment and recovery results.
 
 
