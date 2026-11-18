@@ -9,7 +9,7 @@ Versions follow the project Git tags.
 
 ### Added
 
-- Choose whether Design clamp distances are displayed from the cable top or bottom without changing attachment geometry.
+- Choose the cable end for clamp distances in Design, labeled FT or FB. Report and Deployment Sheet diagrams spell out the reference.
 
 ### Fixed
 
