@@ -9,9 +9,19 @@ Versions follow the project Git tags.
 
 ### Added
 
+- Customize and remember the A3 Deployment Sheet diagram font, size, and style. Print depths in the same dark style as component labels and omit design locks and scientific target annotations.
+
 - Choose the cable end for clamp distances in Design, labeled FT or FB. Report and Deployment Sheet diagrams spell out the reference.
 
 ### Fixed
+
+- Use consistent text across the A4 report diagram and fill the available page height before continuing the mooring plan.
+
+- Remember the last PDF export folder across sessions and scale short Deployment Sheet component images to fit their text rows.
+
+- Separate and emphasize the Design and Preparation source descriptions in the report dialog.
+
+- Show each segment number once on the A3 Deployment Sheet and use larger print text.
 
 - Document the Rust and Maturin prerequisites for building from source on Linux and Windows in the installation guide.
 
